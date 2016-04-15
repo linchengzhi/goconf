@@ -21,11 +21,11 @@
 
 >获取单个配置
 
-	val := goconf.Get("user","account") //Get(prefix,tag) prefix为配置前缀，tag为标识符；如果没有前缀，则默认为config
+	val := conf.Get("user","account") //Get(prefix,tag) prefix为配置前缀，tag为标识符；如果没有前缀，则默认为config
 
 >获取所有配置
 
-	list := goconf.Read() //Read()
+	list := conf.Read() //Read()
 
 
 ---
