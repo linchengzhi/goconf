@@ -3,7 +3,7 @@
 
 #安装
 
-	gp get github.com/linchengzhi/goconf
+	go get github.com/linchengzhi/goconf
 
 #使用
 
